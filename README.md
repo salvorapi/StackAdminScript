@@ -1,4 +1,4 @@
 StackAdminScript
 ================
 
-A set of script for admin openstack
+A set of util scripts for admin Openstack.
