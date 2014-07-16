@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in $(cd /etc/init.d/ && ls neutron-* )
+for i in $(initctl list | cut -d " " -f 1 | grep "neutron")
 do
   service $i start
 done
